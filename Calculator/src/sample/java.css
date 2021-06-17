@@ -1,0 +1,64 @@
+#pane{
+    -fx-background-image: url("saving.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size:600 600;
+}
+
+#btn1,#btn2,#btn3,#btn4{
+    -fx-pref-width: 200;
+    -fx-pref-height: 50;
+    -fx-border-width: 1;
+    -fx-font-family:"serif";
+    -fx-font-size:18;
+    -fx-text-alignment:center;
+    -fx-background-color:#00e673;
+}
+
+#btn1{
+    -fx-background-image: url("save.png");
+    -fx-background-size:50 50;
+    -fx-background-repeat: stretch;
+}
+
+#btn2{
+    -fx-background-image: url("loan.jpg");
+    -fx-background-size:50 50;
+    -fx-background-repeat: stretch;
+}
+
+#btn3{
+    -fx-background-image: url("mortgage.jpg");
+    -fx-background-size:50 50;
+    -fx-background-repeat: stretch;
+}
+
+#btn4{
+    -fx-background-image: url("compound.png");
+    -fx-background-size:50 50;
+    -fx-background-repeat: stretch;
+}
+
+#btn1:hover,#btn2:hover,#btn3:hover,#btn4:hover{
+    -fx-background-color:#00cccc;
+}
+
+#btn5,#btn6{
+    -fx-pref-width: 150;
+    -fx-pref-height: 30;
+    -fx-border-width: 2;
+    -fx-font-family:"serif";
+    -fx-font-size:14;
+    -fx-text-alignment:center;
+    -fx-background-color:#008040;
+}
+
+#btn5:hover,#btn6:hover{
+    -fx-background-color:#00e673;
+}
+
+#lb1{
+    -fx-font-family:"serif";
+    -fx-text-alignment:"center";
+    -fx-font-size:42;
+}
+
